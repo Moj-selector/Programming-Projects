@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="basketball.css">
+</head>
+<body>
+    <div class="div1">
+        <h1 class="h1">BASKETBALL SCORECARD</h1><hr>
+        <div class="div2">
+            <h3  class="team">HOME TEAM</h3>
+            <h1 id="score1-el">0</h1>
+            <button id="point1-el" class="point-el" onclick="home1()">+1</button>
+            <button id="point2-el" class="point-el" onclick="home2()">+2</button>
+            <button id="point3-el" class="point-el" onclick="home3()" >+3</button>
+        </div>
+        <div class="div2">
+            <h3  class="team">GUEST TEAM</h3>
+            <h1 id="score2-el">0</h1>
+            <button class="point-el" onclick="guest1()">+1</button>
+            <button class="point-el" onclick="guest2()">+2</button>
+            <button class="point-el" onclick="guest3()">+3</button>
+        </div>
+    </div>
+            <div class="game">
+                <button id="new-game" onclick="newGame()">NEW GAME</button>
+                <button id="end-game" onclick="GameOver()">END GAME</button>    
+            </div>  
+            <p id="final-score" style="text-align: center;"></p>      
+        
+    <script src="basketball.js"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+body{
+    background-color: blueviolet;
+}
+
+.h1{
+    text-align: center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+hr{
+    width: 70%;
+}
+
+.div2{
+    float: left;
+    text-align: center;
+    width: 20%;
+    margin-left: 250px;
+    height: 200px;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white
+}
+.div1::after{
+    content: "";
+    clear: both;
+    display: table;
+   
+}
+#score1-el{
+    background-color: black;
+}
+#score2-el{
+    background-color: black;
+}
+.point-el{
+    border: 2px solid white;
+    padding: 7px;
+    margin: 3px;
+    border-radius: 10px;
+}
+button{
+    cursor: pointer;
+}
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+#new-game{
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 5px;
+    color: blue;
+    line-height: 1.5;
+}
+#end-game{
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    line-height: 1.5;
+    color: red;
+}
